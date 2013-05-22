@@ -1,5 +1,8 @@
-    " In your .vimrc.bundles.local file"
-    " list only the plugin groups you will use
-    if !exists('g:spf13_bundle_groups')
-        let g:spf13_bundle_groups=['general', 'programming', 'php', 'ruby', 'python', 'twig', 'javascript', 'html', 'misc', 'scala']
-    endif
+" In your .vimrc.bundles.local file"
+" list only the plugin groups you will use
+if !exists('g:spf13_bundle_groups')
+let g:spf13_bundle_groups=['general', 'neocomplcache', 'programming', 'php', 'ruby', 'javascript', 'html', 'misc']
+endif
+
+Bundle 'guns/vim-clojure-static'
+Bundle 'tpope/vim-fireplace'
