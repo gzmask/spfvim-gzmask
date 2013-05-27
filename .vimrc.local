@@ -3,3 +3,4 @@ ino <leader><leader> <esc>
 cno <leader><leader> <C-c>
 ono <leader><leader> <C-c>
 nmap ; :
+nmap <leader>r :doautocmd Syntax<CR>
